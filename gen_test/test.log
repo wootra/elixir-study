@@ -1,0 +1,23 @@
+  PID TTY           TIME CMD
+  867 ttys000    0:47.34 -zsh -g --no_rcs
+ 1378 ttys000    0:00.00 -zsh -g --no_rcs
+ 1379 ttys000    0:05.90 -zsh -g --no_rcs
+ 1382 ttys000    0:00.00 -zsh -g --no_rcs
+ 1387 ttys000    0:22.42 /Users/songhyeonjun/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v DEBUG -t 20
+60926 ttys003    0:06.24 -zsh
+61742 ttys003    0:00.00 -zsh
+61745 ttys003    0:02.90 -zsh
+61746 ttys003    0:00.00 -zsh
+61751 ttys003    0:12.71 /Users/songhyeonjun/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v DEBUG -t 20
+60933 ttys004    0:00.51 -zsh
+61859 ttys004    0:00.00 -zsh
+61860 ttys004    0:02.88 -zsh
+61863 ttys004    0:00.00 -zsh
+61868 ttys004    0:12.18 /Users/songhyeonjun/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v DEBUG -t 20
+60969 ttys008    0:01.09 /opt/homebrew/Cellar/erlang/27.2/lib/erlang/erts-15.2/bin/beam.smp -- -root /opt/homebrew/Cellar/erlang/27.2/lib/erlang -bindir /opt/homebrew/Cellar/erlang/27.2/lib/erlang/erts-15.2/bin -progname erl -- -home /Users/songhyeonjun -- -noshell -elixir_root /Users/songhyeonjun/.asdf/installs/elixir/1.17.3-otp-27/bin/../lib -pa /Users/songhyeonjun/.asdf/installs/elixir/1.17.3-otp-27/bin/../lib/elixir/ebin -elixir ansi_enabled true -user elixir -- -- -extra --no-halt +iex -S mix
+73538 ttys008    0:01.28 /opt/homebrew/Cellar/erlang/27.2/lib/erlang/erts-15.2/bin/beam.smp -- -root /opt/homebrew/Cellar/erlang/27.2/lib/erlang -bindir /opt/homebrew/Cellar/erlang/27.2/lib/erlang/erts-15.2/bin -progname erl -- -home /Users/songhyeonjun -- -noshell -elixir_root /Users/songhyeonjun/.asdf/installs/elixir/1.17.3-otp-27/bin/../lib -pa /Users/songhyeonjun/.asdf/installs/elixir/1.17.3-otp-27/bin/../lib/elixir/ebin -elixir ansi_enabled true -user elixir -- -- -extra --no-halt +iex -S mix
+85825 ttys008    0:02.60 /bin/zsh -il
+85858 ttys008    0:00.00 /bin/zsh -il
+86246 ttys008    0:00.00 /bin/zsh -il
+86247 ttys008    0:00.67 /bin/zsh -il
+86249 ttys008    0:02.39 /Users/songhyeonjun/.cache/gitstatus/gitstatusd-darwin-arm64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v DEBUG -t 20
