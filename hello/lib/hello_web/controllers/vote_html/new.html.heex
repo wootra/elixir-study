@@ -1,0 +1,8 @@
+<.header>
+  New Vote
+  <:subtitle>Use this form to manage vote records in your database.</:subtitle>
+</.header>
+
+<.vote_form changeset={@changeset} action={~p"/votes"} />
+
+<.back navigate={~p"/votes"}>Back to votes</.back>

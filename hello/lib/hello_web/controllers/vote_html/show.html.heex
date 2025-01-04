@@ -1,0 +1,16 @@
+<.header>
+  Vote {@vote.id}
+  <:subtitle>This is a vote record from your database.</:subtitle>
+  <:actions>
+    <.link href={~p"/votes/#{@vote}/edit"}>
+      <.button>Edit vote</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.list>
+  <:item title="Candidates">{@vote.candidates}</:item>
+  <:item title="Count">{@vote.count}</:item>
+</.list>
+
+<.back navigate={~p"/votes"}>Back to votes</.back>

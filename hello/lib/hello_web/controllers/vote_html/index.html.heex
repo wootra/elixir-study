@@ -1,0 +1,24 @@
+<.header>
+  Listing Votes
+  <:actions>
+    <.link href={~p"/votes/new"}>
+      <.button>New Vote</.button>
+    </.link>
+  </:actions>
+</.header>
+
+<.table id="votes" rows={@votes} row_click={&JS.navigate(~p"/votes/#{&1}")}>
+  <:col :let={vote} label="Candidates">{vote.candidates}</:col>
+  <:col :let={vote} label="Count">{vote.count}</:col>
+  <:action :let={vote}>
+    <div class="sr-only">
+      <.link navigate={~p"/votes/#{vote}"}>Show</.link>
+    </div>
+    <.link navigate={~p"/votes/#{vote}/edit"}>Edit</.link>
+  </:action>
+  <:action :let={vote}>
+    <.link href={~p"/votes/#{vote}"} method="delete" data-confirm="Are you sure?">
+      Delete
+    </.link>
+  </:action>
+</.table>
